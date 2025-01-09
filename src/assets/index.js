@@ -29,10 +29,15 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import eversana from "./company/eversana.png";
+import hcode from "./company/hcode.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import noteTaker from "./noteTaker.png";
+import timetableBuilder from "./timetableBuilder.png";
+import portfolio from "./portfolio.png";
 
 export {
   logo,
@@ -61,7 +66,12 @@ export {
   shopify,
   starbucks,
   tesla,
+  eversana,
+  hcode,
   carrent,
   jobit,
   tripguide,
+  noteTaker,
+  timetableBuilder,
+  portfolio,
 };

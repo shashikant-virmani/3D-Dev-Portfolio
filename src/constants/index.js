@@ -18,11 +18,16 @@ import {
     meta,
     starbucks,
     tesla,
+    eversana,
+    hcode,
     shopify,
     carrent,
     jobit,
     tripguide,
     threejs,
+    noteTaker,
+    timetableBuilder,
+    portfolio,
   } from "../assets";
   
   export const navLinks = [
@@ -46,7 +51,7 @@ import {
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "UI Designer",
       icon: mobile,
     },
     {
@@ -54,7 +59,7 @@ import {
       icon: backend,
     },
     {
-      title: "Content Creator",
+      title: "Tech Enthusiast",
       icon: creator,
     },
   ];
@@ -116,57 +121,57 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
+      title: "SDE Intern",
+      company_name: "Eversana",
+      icon: eversana,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "January 2023 - July 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Developing REST APIs for the Report Microservice Module in a Learning Management System using Spring Boot.",
+        "Ensuring smooth frontend integration with a React-based interface for tracking employee progress.",
+        "Assisting in debugging and improving backend functionality.",
+        "Gaining hands-on experience with agile development processes and cross-functional collaboration.",
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
+      title: "Associate Software Engineer",
+      company_name: "Hcode Technologies",
+      icon: hcode,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "November 2023 - August 2024",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Developing and maintaining responsive web applications using Angular for the banking domain.",
+        "Implementing complex data management features with AG-Grid, ensuring efficient data handling.",
+        "Collaborating with backend teams to integrate RESTful APIs seamlessly with frontend components.",
+        "Delivering client requirements with high precision, focusing on performance and user experience.",
       ],
     },
-    {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
+    // {
+    //   title: "Web Developer",
+    //   company_name: "Shopify",
+    //   icon: shopify,
+    //   iconBg: "#383E56",
+    //   date: "Jan 2022 - Jan 2023",
+    //   points: [
+    //     "Developing and maintaining web applications using React.js and other related technologies.",
+    //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+    //     "Implementing responsive design and ensuring cross-browser compatibility.",
+    //     "Participating in code reviews and providing constructive feedback to other developers.",
+    //   ],
+    // },
+    // {
+    //   title: "Full stack Developer",
+    //   company_name: "Meta",
+    //   icon: meta,
+    //   iconBg: "#E6DEDD",
+    //   date: "Jan 2023 - Present",
+    //   points: [
+    //     "Developing and maintaining web applications using React.js and other related technologies.",
+    //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+    //     "Implementing responsive design and ensuring cross-browser compatibility.",
+    //     "Participating in code reviews and providing constructive feedback to other developers.",
+    //   ],
+    // },
   ];
   
   const testimonials = [
@@ -198,58 +203,37 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Note Taker",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Web-based platform that allows users to create, update and delete notes with a title and content section, providing a convenient and efficient way for sharing text messages annonymously over internet.",
       tags: [
         {
-          name: "react",
+          name: "jsp/servlet",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "mysql",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "bootstrap",
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: noteTaker,
+      source_code_link: "https://github.com/shashikant-virmani/NoteTaker_WebApp",
     },
     {
-      name: "Job IT",
+      name: "Time Table Builder",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Web app that enables users to add details of courses, teachers etc. and generate time table for different classes using drop down list of items which can be downloaded publicly by students in pdf format.",
       tags: [
         {
-          name: "react",
+          name: "java",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
-          color: "green-text-gradient",
-        },
-        {
-          name: "scss",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: jobit,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Trip Guide",
-      description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-      tags: [
-        {
-          name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
+          name: "javascript",
           color: "green-text-gradient",
         },
         {
@@ -257,8 +241,29 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: timetableBuilder,
+      source_code_link: "https://github.com/shashikant-virmani/Automated-Class-Time-Table-Generator",
+    },
+    {
+      name: "Portfolio Website",
+      description:
+        "A responsive 3D Portfolio website which is made using Three.js to display animated 3D computer graphics in a web browser using WebGL. It has a beautiful interface made using Tailwind CSS and React.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "tailwind",
+          color: "green-text-gradient",
+        },
+        {
+          name: "threejs",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: portfolio,
+      source_code_link: "https://github.com/shashikant-virmani/3D-Dev-Portfolio",
     },
   ];
   

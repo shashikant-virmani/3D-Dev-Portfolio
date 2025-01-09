@@ -32,8 +32,8 @@ const About = () => {
       <h2 className={styles.sectionHeadText}>Overview.</h2>
     </motion.div>
 
-    <motion.p variants={fadeIn("", "", 0.1, 1)} className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'>
-    Shashikant Virmani is a skilled candidate holding an MCA from NIT Raipur with hands-on product development experience in both frontend (Angular) and backend (Java, Spring Boot) projects in the banking sector. His competitive programming success, including high ranks in Google Kick Start and advanced ratings on CodeChef and Hackerrank, reflects his solid grasp of algorithms and data structures, essential for creating efficient, maintainable code. Shashikant has strong foundations in object-oriented programming, design patterns, and agile workflows, and his project experience includes REST API development. With a proactive learning approach and a collaborative mindset, he is well-equipped to contribute to employer's technical growth, participate in design discussions, and uphold industry coding standards, making him an excellent fit for Software Engineer roles.
+    <motion.p variants={fadeIn("", "", 0.1, 1)} className='mt-4 text-secondary text-[17px] max-w-[3xl] leading-[30px]'>
+    Hi, I’m Shashikant, a Software Engineer with a strong focus on frontend development and creating intuitive web applications. With expertise in React, Angular, JavaScript, and Java, I have built dynamic, user-friendly interfaces and scalable solutions for diverse industries, including banking. My experience spans designing responsive web applications, integrating APIs, and solving complex technical challenges. I’m also passionate about competitive programming, consistently improving my skills in algorithms and problem-solving. Take a look at my projects and achievements, and let’s connect to create impactful digital experiences!
     </motion.p>
 
     <div className='mt-20 flex flex-wrap gap-10'>
