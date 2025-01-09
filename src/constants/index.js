@@ -145,7 +145,7 @@ import {
       points: [
         "Developing and maintaining responsive web applications using Angular for the banking domain.",
         "Implementing complex data management features with AG-Grid, ensuring efficient data handling.",
-        "Collaborating with backend teams to integrate RESTful APIs seamlessly with frontend components.",
+        "Collaborating with backend team to integrate RESTful APIs seamlessly with frontend components.",
         "Delivering client requirements with high precision, focusing on performance and user experience.",
       ],
     },
