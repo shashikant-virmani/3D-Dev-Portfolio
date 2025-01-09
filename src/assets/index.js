@@ -39,6 +39,10 @@ import noteTaker from "./noteTaker.png";
 import timetableBuilder from "./timetableBuilder.png";
 import portfolio from "./portfolio.png";
 
+import linkedin from "./linkedin.png";
+import leetcode from "./leetcode.png";
+import codechef from "./codechef.png";
+
 export {
   logo,
   logo2, logo3, logo4, logo5,
@@ -74,4 +78,7 @@ export {
   noteTaker,
   timetableBuilder,
   portfolio,
+  linkedin,
+  leetcode,
+  codechef,
 };

@@ -28,6 +28,9 @@ import {
     noteTaker,
     timetableBuilder,
     portfolio,
+    linkedin,
+    leetcode,
+    codechef,
   } from "../assets";
   
   export const navLinks = [
@@ -177,27 +180,30 @@ import {
   const testimonials = [
     {
       testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
+        "LinkedIn is a business and employment-focused social media platform that works through websites and mobile apps.",
+      name: "shashikant-virmani",
       designation: "CFO",
       company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
+      image: linkedin,
+      profileLink: "https://www.linkedin.com/in/shashikant-virmani-a736aa16b/",
     },
     {
       testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
+        "LeetCode is an online platform for coding interview preparation. The platform provides coding problems for users to practice coding.",
+      name: "skyseter",
       designation: "COO",
       company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
+      image: leetcode,
+      profileLink: "https://leetcode.com/u/Skyseter/",
     },
     {
       testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
+        "CodeChef is an online educational and Programming Education platform. It began as an educational initiative in 2009 by Directi.",
+      name: "shashikant_100",
       designation: "CTO",
       company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
+      image: codechef,
+      profileLink: "https://www.codechef.com/users/shashikant_100",
     },
   ];
   
